@@ -163,6 +163,8 @@ a:active {
 .typewriter h1 {
   /* color: #fff; */
   /* font-family: monospace; */
+  font-size: 4.2rem;
+  transition: 0.5s ease-in-out;
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
   border-right: .15em solid transparent;
@@ -174,7 +176,7 @@ a:active {
   /* letter-spacing: .15em; */
   /* Adjust as needed */
   animation:
-    typing 3.5s steps(30, end),
+    typing 4s steps(30, end),
     blink-caret .5s step-end ;
 }
 
